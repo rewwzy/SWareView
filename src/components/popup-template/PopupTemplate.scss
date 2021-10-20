@@ -1,0 +1,16 @@
+.popuptemplate-title {
+    padding: 6px 0px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: 400;
+}
+.popupcontainer {
+    display: flex;
+}
+.popuptemplate-btn-control {
+    display: flex;
+    justify-content: center;
+    .dx-button {
+        margin: 0px 6px;
+    }
+}

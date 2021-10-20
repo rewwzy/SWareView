@@ -1,0 +1,14 @@
+.page-title {
+  display: flex;
+  justify-content: space-between;
+  height: 0px;
+  .title {
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    top: 12px;
+    padding-left: 0px;
+    z-index: 2;
+    color: #3268b1;
+  }
+}

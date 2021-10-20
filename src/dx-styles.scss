@@ -1,0 +1,126 @@
+@import "./themes/generated/variables.base.scss";
+
+.app {
+  background-color: darken($base-bg, 5);
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.app .content {
+  line-height: 1.5;
+
+  h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.app .content-block {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.screen-x-small .content-block {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.responsive-paddings {
+  padding: 20px;
+
+  .screen-large & {
+    padding: 40px;
+  }
+}
+
+.dx-card.wide-card {
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+.with-footer
+  > .dx-scrollable-wrapper
+  > .dx-scrollable-container
+  > .dx-scrollable-content {
+  height: 100%;
+
+  & > .dx-scrollview-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+}
+
+$side-panel-min-width: 60px;
+
+html,
+body {
+  margin: 0px;
+  min-height: 100%;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.dx-popup-normal
+  .dx-toolbar.dx-widget.dx-visibility-change-handler.dx-collection.dx-popup-title.dx-has-close-button {
+  padding: 10px 12px;
+}
+.dx-toolbar-after {
+  padding-right: 10px;
+}
+.dx-toolbar.dx-widget.dx-visibility-change-handler.dx-collection.dx-popup-bottom {
+  padding: 10px 12px;
+}
+.btn-download,
+.btn-viewfile {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  i {
+    color: #337ab7;
+  }
+}
+
+.dx-checkbox-container .dx-checkbox-icon {
+  border: 1px solid #666;
+}
+.dx-datagrid-summary-item {
+  font-size: 12px;
+}
+
+.dx-datagrid-total-footer > .dx-datagrid-content {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.dx-texteditor.dx-state-readonly {
+  border-style: solid;
+}
+
+.dx-popup-title.dx-has-close-button {
+  background: #337ab7 !important;
+}
+.view-content{
+  font-size: 12px;
+}
+// .dx-overlay-content.dx-popup-normal.dx-resizable{
+//   width: 300px !important;
+// }
+
+.dx-overlay-wrapper.dx-dropdowneditor-overlay.dx-popup-wrapper.dx-dropdownlist-popup-wrapper.dx-selectbox-popup-wrapper .dx-overlay-content.dx-popup-normal.dx-resizable{
+  width: 400px !important;
+}
+
