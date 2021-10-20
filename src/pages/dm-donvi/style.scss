@@ -1,0 +1,21 @@
+.HTRadioContainer {
+  display: block;
+  padding-top: 5px !important;
+  label {
+    margin-right: 30px;
+    font-size: 12px;
+  }
+  .dx-item-content {
+    font-size: 12px;
+  }
+}
+
+.dx-item-content.dx-box-item-content.dx-root-simple-item {
+  .dx-radiobutton-icon::before {
+    border: 1px solid #666;
+  }
+}
+
+.dx-radiogroup-horizontal .dx-radiobutton:last-of-type {
+  margin-left: 80px;
+}
